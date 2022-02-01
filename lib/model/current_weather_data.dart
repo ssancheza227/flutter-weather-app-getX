@@ -59,4 +59,9 @@ class CurrentWeatherData {
       cod: json['cod'],
     );
   }
+
+  @override
+  String toString() {
+    return 'City: {weather: $weather}';
+  }
 }
